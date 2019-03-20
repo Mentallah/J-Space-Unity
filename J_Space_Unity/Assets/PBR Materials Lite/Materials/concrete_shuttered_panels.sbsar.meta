@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: d7a87c75cfb867143880419aa57a4dff
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Shuttered Panels
+    2800000: Shuttered Panels - baseColor
+    2800002: Shuttered Panels - normal
+    2800004: Shuttered Panels - metallic
+    2800006: Shuttered Panels - height
+    11400000: sbsar
+    11400002: graph0
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Shuttered Panels
+    prototypeName: Shuttered Panels
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://concrete_shuttered_panels\" label=\"\" >\n
+      </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Shuttered Panels - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Shuttered Panels - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
